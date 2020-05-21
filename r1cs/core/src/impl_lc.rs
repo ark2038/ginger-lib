@@ -1,5 +1,5 @@
-use smallvec::smallvec;
-use crate::SmallVec;
+use smallvec::SmallVec;
+/// use crate::SmallVec;
 use std::ops::{Add, AddAssign, Mul, MulAssign, Neg, Sub};
 use algebra::Field;
 use crate::{LinearCombination, Variable};
