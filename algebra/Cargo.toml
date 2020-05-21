@@ -23,7 +23,7 @@ edition = "2018"
 [dependencies]
 byteorder = { version = "1" }
 rand = { version = "0.7" }
-derivative = { version = "1.0.0" }
+derivative = "1.0.0"
 
 colored = { version = "1", optional = true }
 rayon = { version = "1", optional = true }
