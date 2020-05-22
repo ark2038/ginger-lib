@@ -1,4 +1,4 @@
-use smallvec::SmallVec;
+use smallvec::{SmallVec, smallvec};
 /// use crate::SmallVec;
 use std::ops::{Add, AddAssign, Mul, MulAssign, Neg, Sub};
 use algebra::Field;
