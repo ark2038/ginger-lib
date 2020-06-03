@@ -204,6 +204,45 @@ dependencies = [
 ]
 
 [[package]]
+name = "r1cs-crypto"
+version = "0.1.0"
+dependencies = [
+ "algebra",
+ "bench-utils",
+ "blake2",
+ "criterion",
+ "derivative",
+ "digest",
+ "primitives",
+ "proof-systems",
+ "r1cs-core",
+ "r1cs-std",
+ "rand",
+ "rand_xorshift",
+ "rayon",
+]
+
+[[package]]
+name = "r1cs-core"
+version = "0.1.0"
+dependencies = [
+ "algebra",
+ "smallvec",
+]
+
+[[package]]
+name = "r1cs-std"
+version = "0.1.0"
+dependencies = [
+ "algebra",
+ "derivative",
+ "r1cs-core",
+ "radix_trie",
+ "rand",
+ "rand_xorshift",
+]
+
+[[package]]
 name = "quote"
 version = "0.6.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
